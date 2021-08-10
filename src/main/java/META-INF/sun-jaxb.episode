@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.08.09 às 11:32:38 PM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.devweb.com.br/soap/api/elegibilidade" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.devweb.soapws.model"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:ClienteRequest">
+                  
+            <class ref="br.com.devweb.soapws.model.ClienteRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Situacao">
+                  
+            <class ref="br.com.devweb.soapws.model.Situacao"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
